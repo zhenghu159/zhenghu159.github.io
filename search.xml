@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Biorplot</title>
-    <url>/2022/04/06/Github%E9%A1%B9%E7%9B%AE/Biorplot/</url>
-    <content><![CDATA[<h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p>整理了一些自己生物信息分析中常用的绘图。<br>Biorplot Github: <a href="https://github.com/zhenghu159/Biorplot">https://github.com/zhenghu159/Biorplot</a><br>Documentation: <a href="https://zhenghu159.github.io/Biorplot/index.html">https://zhenghu159.github.io/Biorplot/index.html</a></p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>Github Repositories</category>
-      </categories>
-      <tags>
-        <tag>Github Repositories</tag>
-        <tag>R</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小鼠脑区分布</title>
-    <url>/2022/04/07/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E5%B0%8F%E9%BC%A0%E8%84%91%E5%8C%BA%E5%88%86%E5%B8%83/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>hexo-next 主题美化</title>
     <url>/2022/04/09/hexo/hexo-next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<p>在使用了 hexo-next 主题后，总会想要进行一些用户自定义的修改，来美化我们自己的博客，本文记录了一些我自己对博客主题的修改。</p>
+    <content><![CDATA[<p>在使用了 hexo-next 主题后，我们可以进行一些设置来美化自己的博客，本文记录了一些我自己对博客主题的修改。</p>
 <span id="more"></span>
+<h1 id="Next-主题安装和配置"><a href="#Next-主题安装和配置" class="headerlink" title="Next 主题安装和配置"></a>Next 主题安装和配置</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> hexo/themes</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next.git</span></span><br></pre></td></tr></table></figure>
+<p>然后打开 hexo 的配置文件 _config.yml，修改 theme: 参数：</p>
+<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"><span class="symbol">theme:</span> hexo-theme-<span class="keyword">next</span></span><br></pre></td></tr></table></figure>
+
+
+<h1 id="Next-基本配置"><a href="#Next-基本配置" class="headerlink" title="Next 基本配置"></a>Next 基本配置</h1><h2 id="站点标题、作者、语言、时区设置"><a href="#站点标题、作者、语言、时区设置" class="headerlink" title="站点标题、作者、语言、时区设置"></a>站点标题、作者、语言、时区设置</h2><p>打开 hexo 的配置文件 _config.yml，修改 #Site 下面的参数：</p>
+<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line"><span class="symbol">title:</span> TigerZ<span class="comment">&#x27;s Blog</span></span><br><span class="line"><span class="symbol">subtitle:</span> 个人博客</span><br><span class="line"><span class="symbol">description:</span> 网站描述</span><br><span class="line"><span class="symbol">keywords:</span> <span class="comment">&#x27;&#x27;</span></span><br><span class="line"><span class="symbol">author:</span> TigerZ</span><br><span class="line"><span class="symbol">language:</span> zh-CN</span><br><span class="line"><span class="symbol">timezone:</span> Asia/Shanghai</span><br></pre></td></tr></table></figure>
+<h2 id="站点-URL-设置"><a href="#站点-URL-设置" class="headerlink" title="站点 URL 设置"></a>站点 URL 设置</h2><p>打开 hexo 的配置文件 _config.yml，修改 #URL 下面的参数：</p>
+<figure class="highlight oxygene"><table><tr><td class="code"><pre><span class="line"># URL</span><br><span class="line">## <span class="keyword">Set</span> your site url here. <span class="keyword">For</span> example, <span class="keyword">if</span> you use GitHub Page, <span class="keyword">set</span> url <span class="keyword">as</span> <span class="string">&#x27;https://username.github.io/project&#x27;</span></span><br><span class="line">url: https:<span class="comment">//zhenghu159.github.io/</span></span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br><span class="line">pretty_urls:</span><br><span class="line">  trailing_index: <span class="keyword">true</span> # <span class="keyword">Set</span> <span class="keyword">to</span> <span class="keyword">false</span> <span class="keyword">to</span> <span class="keyword">remove</span> trailing <span class="string">&#x27;index.html&#x27;</span> <span class="keyword">from</span> permalinks</span><br><span class="line">  trailing_html: <span class="keyword">true</span> # <span class="keyword">Set</span> <span class="keyword">to</span> <span class="keyword">false</span> <span class="keyword">to</span> <span class="keyword">remove</span> trailing <span class="string">&#x27;.html&#x27;</span> <span class="keyword">from</span> permalinks</span><br></pre></td></tr></table></figure>
+<h2 id="菜单栏设置"><a href="#菜单栏设置" class="headerlink" title="菜单栏设置"></a>菜单栏设置</h2><p>打开 next 主题配置文件 next/_config.yml，修改 #Menu Settings 下面的参数：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># ---------------------------------------------------------------</span></span><br><span class="line"><span class="comment"># Menu Settings</span></span><br><span class="line"><span class="comment"># ---------------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Usage: `Key: /link/ || icon`</span></span><br><span class="line"><span class="comment"># Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-sensitive.</span></span><br><span class="line"><span class="comment"># Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.</span></span><br><span class="line"><span class="comment"># External url should start with http:// or https://</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-th</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Enable / Disable menu icons / item badges.</span></span><br><span class="line"><span class="attr">menu_settings:</span></span><br><span class="line">  <span class="attr">icons:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">badges:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>创建 about、tags、categories 的 index 文件：</p>
+<figure class="highlight haxe"><table><tr><td class="code"><pre><span class="line">$ cd hexo/</span><br><span class="line">$ hexo <span class="keyword">new</span> <span class="type">page</span> about</span><br><span class="line">$ hexo <span class="keyword">new</span> <span class="type">page</span> tags</span><br><span class="line">$ hexo <span class="keyword">new</span> <span class="type">page</span> categories</span><br></pre></td></tr></table></figure>
+<p>修改 hexo/source/ 中刚刚生成的文件：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">标签</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2022-04-04 14:31:56</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">&quot;tags&quot;</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">分类</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2022-04-04 14:54:19</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">&quot;categories&quot;</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="主题风格设置"><a href="#主题风格设置" class="headerlink" title="主题风格设置"></a>主题风格设置</h2><p>打开 next 主题配置文件 next/_config.yml，找到 # Scheme Settings，next 提供了四种可以选择的主题，darkmode: 可以设置黑色模式：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Dark Mode</span></span><br><span class="line"><span class="attr">darkmode:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>打开 next 主题配置文件 next/_config.yml，修改 avatar: 下面的参数：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># Replace the default image and set the url here.</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/avatar.jpg</span>   <span class="comment"># 图片路径在 next/source/images/</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be displayed in circle.</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">true</span>   <span class="comment"># 头像显示为圆形</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be rotated with the cursor.</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">true</span>   <span class="comment"># 头像可以旋转</span></span><br></pre></td></tr></table></figure>
+<h2 id="Social-Links-设置"><a href="#Social-Links-设置" class="headerlink" title="Social Links 设置"></a>Social Links 设置</h2><p>打开 next 主题配置文件 next/_config.yml，修改 social: 下面的参数：</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">social:</span></span><br><span class="line"><span class="symbol">  GitHub:</span> https:<span class="comment">//github.com/zhenghu159 || fab fa-github</span></span><br><span class="line">  E-Mail: about || fa fa-envelope</span><br></pre></td></tr></table></figure>
+
 
 <h1 id="代码高亮和代码框主题"><a href="#代码高亮和代码框主题" class="headerlink" title="代码高亮和代码框主题"></a>代码高亮和代码框主题</h1><p>NexT 使用 Highlight.js 和 Prism 两种方式来支持代码高亮和代码主题。<br>这个网址可以查看所有主题：<a href="https://theme-next.js.org/highlight/">https://theme-next.js.org/highlight/</a><br>可以根据个人喜好选择不同的主题，我选择的是 Highlight 模式下的 github-dark 主题。<br>打开 hexo 的配置文件 _config.yml，找到 highlight: 将参数修改成下面这样：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">hljs:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
@@ -52,12 +56,82 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Utterances</span></span><br><span class="line"><span class="comment"># For more information: https://utteranc.es</span></span><br><span class="line"><span class="attr">utterances:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">zhenghu159/BlogComments</span> <span class="comment"># Github repository owner and name</span></span><br><span class="line">  <span class="comment"># Available values: pathname | url | title | og:title</span></span><br><span class="line">  <span class="attr">issue_term:</span> <span class="string">pathname</span></span><br><span class="line">  <span class="comment"># Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">github-light</span></span><br></pre></td></tr></table></figure>
 <p>之后登录 GitHub 账号即可评论，效果如下：<br><img src="%E5%BC%80%E5%90%AF%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F3.png" alt="新建仓库"></p>
 <div class="note info no-icon"><p>参考链接：<br><a href="https://theme-next.js.org/docs/third-party-services/comments.html">NexT Comment Systems</a><br><a href="https://utteranc.es/">Utterances</a></p>
-</div>]]></content>
+</div>
+
+
+<h1 id="开启打赏功能"><a href="#开启打赏功能" class="headerlink" title="开启打赏功能"></a>开启打赏功能</h1><p>打开 next 主题配置文件 next/_config.yml，找到 reward: 将参数修改成下面这样：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, a donate button will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">comment:</span> <span class="string">Buy</span> <span class="string">me</span> <span class="string">a</span> <span class="string">coffee</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.png</span></span><br><span class="line">  <span class="comment">#alipay: /images/alipay.png</span></span><br><span class="line">  <span class="comment">#paypal: /images/paypal.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure>
+
+
+<h1 id="设置阅读全文"><a href="#设置阅读全文" class="headerlink" title="设置阅读全文"></a>设置阅读全文</h1><p>在要显示的内容后面加：</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- more --&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+<h1 id="添加-GitHub-Corners"><a href="#添加-GitHub-Corners" class="headerlink" title="添加 GitHub Corners"></a>添加 GitHub Corners</h1><p>打开 next 主题配置文件 next/_config.yml，找到 github_banner: 将参数修改成下面这样：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># `Follow me on GitHub` banner in the top-right corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">permalink:</span> <span class="string">https://github.com/zhenghu159</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure>
+
+
+<h1 id="添加本地搜索功能"><a href="#添加本地搜索功能" class="headerlink" title="添加本地搜索功能"></a>添加本地搜索功能</h1><p>首先安装 hexo-generator-searchdb：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="variable">$</span> <span class="built_in">cd</span> hexo/</span><br><span class="line"><span class="variable">$</span> npm install hexo<span class="literal">-generator-searchdb</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure>
+<p>打开 hexo 的配置文件 _config.yml，添加以下内容：</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="meta"># Search</span></span><br><span class="line"><span class="symbol">search:</span></span><br><span class="line"><span class="symbol">  path:</span> search.xml</span><br><span class="line"><span class="symbol">  field:</span> post</span><br><span class="line"><span class="symbol">  format:</span> html</span><br><span class="line"><span class="symbol">  limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+<p>打开 next 主题配置文件 next/_config.yml，找到 local_search: 将参数修改成下面这样：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<div class="note info no-icon"><p>参考链接：<a href="http://theme-next.iissnan.com/third-party-services.html#local-search">NexT Local Search</a></p>
+</div>
+
+
+<h1 id="添加访客数和阅读量统计"><a href="#添加访客数和阅读量统计" class="headerlink" title="添加访客数和阅读量统计"></a>添加访客数和阅读量统计</h1><p>打开 next 主题配置文件 next/_config.yml，找到 busuanzi_count: 将参数修改成下面这样：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_visitors:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_visitors_icon:</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br><span class="line">  <span class="attr">total_views:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_views_icon:</span> <span class="string">fa</span> <span class="string">fa-eye</span></span><br><span class="line">  <span class="attr">post_views:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post_views_icon:</span> <span class="string">far</span> <span class="string">fa-eye</span></span><br></pre></td></tr></table></figure>
+
+
+<h1 id="添加点击效果"><a href="#添加点击效果" class="headerlink" title="添加点击效果"></a>添加点击效果</h1><p>下载插件：</p>
+<figure class="highlight autoit"><table><tr><td class="code"><pre><span class="line">npm install <span class="keyword">next</span>-theme/hexo-<span class="keyword">next</span>-fireworks</span><br></pre></td></tr></table></figure>
+<p>hexo clean 后生效</p>
+<div class="note info no-icon"><p>参考链接：<a href="https://github.com/next-theme/hexo-next-fireworks">NexT Fireworks</a></p>
+</div>
+
+
+<h1 id="添加字数统计"><a href="#添加字数统计" class="headerlink" title="添加字数统计"></a>添加字数统计</h1><p>下载插件：</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span>npm install hexo-word-counter</span><br><span class="line"><span class="variable">$ </span>hexo clean</span><br></pre></td></tr></table></figure>
+<p>打开 hexo 的配置文件 _config.yml，添加以下内容：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># symbols_count_time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span>                <span class="comment"># 文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span>                   <span class="comment"># 文章阅读时长</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span>          <span class="comment"># 站点总字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span>             <span class="comment"># 站点总阅读时长</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span>     <span class="comment"># 排除代码字数统计</span></span><br></pre></td></tr></table></figure>
+<p>打开 next 主题配置文件 next/_config.yml，找到 symbols_count_time: 将参数修改成下面这样：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span>     <span class="comment"># 是否另起一行（true的话不和发表时间等同一行）</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span>     <span class="comment"># 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span>     <span class="comment"># 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span></span><br></pre></td></tr></table></figure>
+<div class="note info no-icon"><p>参考链接：<a href="https://github.com/next-theme/hexo-word-counter">Hexo Word Counter</a></p>
+</div>
+
+
+<h1 id="添加背景图片"><a href="#添加背景图片" class="headerlink" title="添加背景图片"></a>添加背景图片</h1><p>打开 next 主题配置文件 next/_config.yml，找到 custom_file_path: 将参数修改成下面这样：</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">custom_file_path:</span><br><span class="line">  style: source<span class="regexp">/_data/</span>styles.styl  <span class="comment"># 去除前面的注释</span></span><br></pre></td></tr></table></figure>
+<p>然后新建一个 hexo/source/_data/styles.styl 文件，添加以下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">// 添加背景图片</span><br><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">url</span>(<span class="string">/images/background2.png</span>);</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">    <span class="attribute">background-attachment</span>: fixed; //不重复</span><br><span class="line">    <span class="attribute">background-size</span>: cover;      //填充</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>将背景图片存放到 themes/next/source/images/ 目录下</p>
+<div class="note info no-icon"><p>参考链接：<a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
+</div>
+
+
+<h1 id="头部背景图片"><a href="#头部背景图片" class="headerlink" title="头部背景图片"></a>头部背景图片</h1><p>在 hexo/source/_data/styles.styl 文件中添加以下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-brand-container</span> &#123;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">20px</span> <span class="number">20px</span> <span class="number">0px</span> <span class="number">0px</span>;</span><br><span class="line">  <span class="attribute">padding-top</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">url</span>(<span class="string">/images/head_background.png</span>); //图片位置</span><br><span class="line">  <span class="attribute">background-size</span>: cover;</span><br><span class="line">  <span class="attribute">background-position</span>: <span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>hexo</category>
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Biorplot</title>
+    <url>/2022/04/06/Github%E9%A1%B9%E7%9B%AE/Biorplot/</url>
+    <content><![CDATA[<h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p>整理了一些自己生物信息分析中常用的绘图。<br>Biorplot Github: <a href="https://github.com/zhenghu159/Biorplot">https://github.com/zhenghu159/Biorplot</a><br>Documentation: <a href="https://zhenghu159.github.io/Biorplot/index.html">https://zhenghu159.github.io/Biorplot/index.html</a></p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Github Repositories</category>
+      </categories>
+      <tags>
+        <tag>Github Repositories</tag>
+        <tag>R</tag>
       </tags>
   </entry>
   <entry>
@@ -102,6 +176,22 @@
       <tags>
         <tag>文献阅读</tag>
         <tag>神经生物学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小鼠脑区分布</title>
+    <url>/2022/04/07/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E5%B0%8F%E9%BC%A0%E8%84%91%E5%8C%BA%E5%88%86%E5%B8%83/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>DoubletFinder:检测scRNAseq中双细胞的工具</title>
+    <url>/2022/04/18/%E5%8D%95%E7%BB%86%E8%83%9E%E5%88%86%E6%9E%90/1.DoubletFinder/</url>
+    <content><![CDATA[<h1 id="DoubletFinder-原理"><a href="#DoubletFinder-原理" class="headerlink" title="DoubletFinder 原理"></a>DoubletFinder 原理</h1>]]></content>
+      <categories>
+        <category>单细胞分析</category>
+      </categories>
+      <tags>
+        <tag>单细胞分析</tag>
       </tags>
   </entry>
 </search>
