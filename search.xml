@@ -184,7 +184,7 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>DoubletFinder:检测scRNAseq中双细胞的工具</title>
+    <title>DoubletFinder：检测 scRNAseq 中双细胞的工具</title>
     <url>/2022/04/18/%E5%8D%95%E7%BB%86%E8%83%9E%E5%88%86%E6%9E%90/1.DoubletFinder/</url>
     <content><![CDATA[<h1 id="DoubletFinder-原理"><a href="#DoubletFinder-原理" class="headerlink" title="DoubletFinder 原理"></a>DoubletFinder 原理</h1>]]></content>
       <categories>
