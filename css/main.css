@@ -184,8 +184,8 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1em;
+  font-family: Times New Roman,KaiTi, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 1.2em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -197,7 +197,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times New Roman,KaiTi, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -1199,8 +1199,8 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.375em;
+  font-family: Lato, Times New Roman,KaiTi, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 1.5em;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
@@ -1954,7 +1954,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times New Roman,KaiTi, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2141,7 +2141,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times New Roman,KaiTi, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2976,9 +2976,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
-}
-.back-to-top {
-  border-radius: 100px;
+  color: #000;
 }
 .btn {
   background: rgba(255,255,255,0.5);
@@ -2987,8 +2985,12 @@ body {
   margin-top: 40px;
 }
 .header-inner {
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 25px 25px 20px 20px;
+  background: rgba(255,255,255,0.9);
+}
+.header-inner a {
+  color: #000;
 }
 .site-brand-container {
   border-radius: 20px 20px 0px 0px;
@@ -2997,23 +2999,23 @@ body {
   background-size: cover;
   background-position: 50% 50%;
 }
-.sidebar {
-  background-color: transparent;
-  opacity: 0.9;
-  border-radius: 0px 0px 20px 20px;
+.site-brand-container a {
+  color: #fff;
 }
-.header-inner {
+.sidebar-inner {
   background: rgba(255,255,255,0.9);
 }
 .popup {
   opacity: 0.9;
 }
+/*
 body {
-  cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur"),;
-default
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
 }
 a,
 img {
-  cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur"),;
-default
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
 }
+*/
