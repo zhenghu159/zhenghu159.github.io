@@ -2995,7 +2995,7 @@ body {
 .site-brand-container {
   border-radius: 20px 20px 0px 0px;
   padding-top: 20px;
-  background: url("/images/head_background.png");
+  background: url("/images/head_background.gif");
   background-size: cover;
   background-position: 50% 50%;
 }
