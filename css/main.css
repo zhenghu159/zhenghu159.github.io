@@ -2978,6 +2978,9 @@ body {
   background-position: 50% 50%;
   color: #000;
 }
+.posts-expand .post-title-link {
+  color: #000;
+}
 .btn {
   background: rgba(255,255,255,0.5);
 }
