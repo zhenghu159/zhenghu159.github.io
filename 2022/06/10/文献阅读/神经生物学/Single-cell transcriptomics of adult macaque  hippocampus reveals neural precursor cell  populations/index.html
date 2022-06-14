@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.4.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Times+New+Roman:300,300italic,400,400italic,700,700italic%7CKaiTi:300,300italic,400,400italic,700,700italic%7CLato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"zhenghu159.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"utterances","storage":true,"lazyload":false,"nav":null,"activeClass":"utterances"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="文献信息题目: 成年猕猴海马的单细胞转录组学揭示了神经前体细胞群DOI: https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;s41593-022-01073-xCite: Hao, ZZ., Wei, JR., Xiao, D. et al. Single-cell transcriptomics of adult macaque hippocampus reveals neural precurs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="文献阅读 --- Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations">
+<meta property="og:url" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/index.html">
+<meta property="og:site_name" content="TigerZ&#39;s Blog">
+<meta property="og:description" content="文献信息题目: 成年猕猴海马的单细胞转录组学揭示了神经前体细胞群DOI: https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;s41593-022-01073-xCite: Hao, ZZ., Wei, JR., Xiao, D. et al. Single-cell transcriptomics of adult macaque hippocampus reveals neural precurs">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig1.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig2.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig3.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig4.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig5.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig6.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig7.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig1.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig2.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig3.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig4.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig5.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig6.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig7.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig8.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig9.png">
+<meta property="og:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/ExtendedFig10.png">
+<meta property="article:published_time" content="2022-06-09T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-06-13T12:37:58.928Z">
+<meta property="article:author" content="TigerZ">
+<meta property="article:tag" content="文献阅读">
+<meta property="article:tag" content="神经生物学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/Fig1.png">
+
+
+<link rel="canonical" href="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/","path":"2022/06/10/文献阅读/神经生物学/Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations/","title":"文献阅读 --- Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>文献阅读 --- Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations | TigerZ's Blog</title>
+  
+
+
+
+
+<script src="/lib/fireworks.js"></script><link rel="stylesheet" type="text/css" href="/css/injector/main.css" /><link rel="preload" as="style" href="/css/injector/light.css" /><link rel="preload" as="style" href="/css/injector/dark.css" />
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+  
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">TigerZ's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description"><font face="Lato" size="4"> 个人博客 </font></p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">6</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">5</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">9</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E7%8C%AE%E4%BF%A1%E6%81%AF"><span class="nav-number">1.</span> <span class="nav-text">文献信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Abstract%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">Abstract：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Results%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">Results：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig1-%E8%A7%A3%E5%89%96%E6%88%90%E5%B9%B4%E7%8C%95%E7%8C%B4%E7%9A%84%E6%B5%B7%E9%A9%AC%E7%BB%86%E8%83%9E%E5%92%8C%E5%88%86%E5%AD%90%E7%89%B9%E5%BE%81"><span class="nav-number">3.1.</span> <span class="nav-text">Fig1. 解剖成年猕猴的海马细胞和分子特征</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig2-%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A%E6%95%B0%E6%8D%AE%E9%9B%86%E9%AA%8C%E8%AF%81%E7%8C%95%E7%8C%B4%E6%B5%B7%E9%A9%AC%E7%BB%86%E8%83%9E%E7%BE%A4"><span class="nav-number">3.2.</span> <span class="nav-text">Fig2. 使用注释数据集验证猕猴海马细胞群</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig3-RGLs-%E5%92%8C-astrocytes-%E6%98%AF%E4%B8%8D%E5%90%8C%E7%9A%84%E7%BE%A4%E4%BD%93"><span class="nav-number">3.3.</span> <span class="nav-text">Fig3. RGLs 和 astrocytes 是不同的群体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig4-%E6%88%90%E5%B9%B4%E7%8C%95%E7%8C%B4%E6%B5%B7%E9%A9%AC-DG-%E7%9A%84%E5%8A%A8%E6%80%81%E7%A5%9E%E7%BB%8F%E5%8F%91%E7%94%9F%E8%BF%87%E7%A8%8B"><span class="nav-number">3.4.</span> <span class="nav-text">Fig4. 成年猕猴海马 DG 的动态神经发生过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig5-HMGB2-%E4%B8%8E-RGL-%E5%92%8C-IPCs-%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BF%87%E6%B8%A1%E7%9B%B8%E5%85%B3"><span class="nav-number">3.5.</span> <span class="nav-text">Fig5. HMGB2 与 RGL 和 IPCs 之间的过渡相关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig6-%E6%88%90%E5%B9%B4%E7%8C%95%E7%8C%B4%E6%B5%B7%E9%A9%AC-DG-%E4%B8%AD-GCs-%E7%9A%84%E6%88%90%E7%86%9F%E8%BF%87%E7%A8%8B"><span class="nav-number">3.6.</span> <span class="nav-text">Fig6. 成年猕猴海马 DG 中 GCs 的成熟过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fig7-%E6%88%90%E5%B9%B4%E7%8C%95%E7%8C%B4%E6%B5%B7%E9%A9%AC-DG-%E4%B8%AD-GCs-%E7%9A%84%E6%88%90%E7%86%9F%E8%BF%87%E7%A8%8B"><span class="nav-number">3.7.</span> <span class="nav-text">Fig7. 成年猕猴海马 DG 中 GCs 的成熟过程</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Extended-Results%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">Extended Results：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig1-%E6%95%B0%E6%8D%AE%E8%B4%A8%E6%8E%A7"><span class="nav-number">4.1.</span> <span class="nav-text">Extended Data Fig1. 数据质控</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig2-%E6%B5%B7%E9%A9%AC%E7%BB%86%E8%83%9E%E7%BE%A4%E4%B8%AD%E5%AF%8C%E9%9B%86%E7%9A%84%E5%9F%BA%E5%9B%A0%E8%B0%83%E6%8E%A7%E7%BD%91%E7%BB%9C-gene-regulatory-networks%EF%BC%8CGRNs%EF%BC%8Ctermed-regulons"><span class="nav-number">4.2.</span> <span class="nav-text">Extended Data Fig2. 海马细胞群中富集的基因调控网络(gene regulatory networks，GRNs，termed regulons)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig3-%E4%B8%8E%E5%B9%B4%E9%BE%84%E7%9B%B8%E5%85%B3%E7%9A%84%E7%BE%A4%E4%BD%93%E5%88%86%E5%B8%83%E5%92%8C%E5%9F%BA%E5%9B%A0%E8%A1%A8%E8%BE%BE%E7%9A%84%E5%8F%98%E5%8C%96"><span class="nav-number">4.3.</span> <span class="nav-text">Extended Data Fig3. 与年龄相关的群体分布和基因表达的变化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig4-%E4%B8%8E%E6%80%A7%E5%88%AB%E7%9B%B8%E5%85%B3%E7%9A%84%E7%BE%A4%E4%BD%93%E5%88%86%E5%B8%83%E5%92%8C%E5%9F%BA%E5%9B%A0%E8%A1%A8%E8%BE%BE%E7%9A%84%E5%8F%98%E5%8C%96"><span class="nav-number">4.4.</span> <span class="nav-text">Extended Data Fig4. 与性别相关的群体分布和基因表达的变化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig5-%E5%85%B8%E5%9E%8B%E7%A5%9E%E7%BB%8F%E6%A0%87%E8%AE%B0%E7%89%A9%E7%9A%84%E5%85%8D%E7%96%AB%E6%9F%93%E8%89%B2%E8%AF%81%E5%AE%9E%E4%BA%86SGZ%E4%B8%AD%E7%A5%9E%E7%BB%8F%E5%89%8D%E4%BD%93%E7%BB%86%E8%83%9E%E7%9A%84%E5%AD%98%E5%9C%A8"><span class="nav-number">4.5.</span> <span class="nav-text">Extended Data Fig5. 典型神经标记物的免疫染色证实了SGZ中神经前体细胞的存在</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig6-%E7%8C%95%E7%8C%B4%E6%88%90%E5%B9%B4%E6%B5%B7%E9%A9%AC%E8%BD%AC%E5%BD%95%E7%BB%84%E7%BB%86%E8%83%9E%E7%B1%BB%E5%9E%8B%E4%B8%8E%E6%88%90%E7%86%9F%E7%9A%84%E5%B0%8F%E9%BC%A0%E6%95%B0%E6%8D%AE%E9%9B%86%E5%AF%B9%E9%BD%90"><span class="nav-number">4.6.</span> <span class="nav-text">Extended Data Fig6. 猕猴成年海马转录组细胞类型与成熟的小鼠数据集对齐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig7-%E7%8C%95%E7%8C%B4%E6%88%90%E5%B9%B4%E6%B5%B7%E9%A9%AC%E8%BD%AC%E5%BD%95%E7%BB%84%E7%BB%86%E8%83%9E%E7%B1%BB%E5%9E%8B%E4%B8%8E%E6%88%90%E7%86%9F%E7%9A%84%E4%BA%BA%E7%B1%BB%E6%95%B0%E6%8D%AE%E9%9B%86%E5%AF%B9%E9%BD%90"><span class="nav-number">4.7.</span> <span class="nav-text">Extended Data Fig7. 猕猴成年海马转录组细胞类型与成熟的人类数据集对齐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig8-%E7%A5%9E%E7%BB%8F%E6%BA%90%E6%80%A7%E7%9B%B8%E5%85%B3%E7%BE%A4%E4%BD%93%E7%9A%84%E8%B0%B1%E7%B3%BB"><span class="nav-number">4.8.</span> <span class="nav-text">Extended Data Fig8. 神经源性相关群体的谱系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig9-%E5%9C%A8%E7%8C%95%E7%8C%B4%E5%92%8C%E5%B0%8F%E9%BC%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E5%9F%BA%E5%9B%A0%E5%AF%8C%E9%9B%86%E6%83%85%E5%86%B5%E7%9A%84%E6%AF%94%E8%BE%83"><span class="nav-number">4.9.</span> <span class="nav-text">Extended Data Fig9. 在猕猴和小鼠之间的基因富集情况的比较</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Data-Fig10-%E5%9F%B9%E5%85%BB%E7%9A%84%E6%B5%B7%E9%A9%AC%E7%A5%9E%E7%BB%8F%E7%90%83%E7%9A%84%E7%A5%9E%E7%BB%8F%E7%90%83%E5%BD%A2%E6%88%90%E8%BF%87%E7%A8%8B%E5%8F%8A%E5%9F%BA%E5%9B%A0%E8%A1%A8%E8%BE%BE"><span class="nav-number">4.10.</span> <span class="nav-text">Extended Data Fig10. 培养的海马神经球的神经球形成过程及基因表达</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="TigerZ"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">TigerZ</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/zhenghu159" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;zhenghu159" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/about" title="E-Mail → about"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/zhenghu159" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="TigerZ">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TigerZ's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="文献阅读 --- Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations | TigerZ's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          文献阅读 --- Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-06-10 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-10T00:00:00+08:00">2022-06-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-13 20:37:58" itemprop="dateModified" datetime="2022-06-13T20:37:58+08:00">2022-06-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" itemprop="url" rel="index"><span itemprop="name">文献阅读</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">神经生物学</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>8.8k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>8 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="文献信息"><a href="#文献信息" class="headerlink" title="文献信息"></a>文献信息</h1><p>题目: 成年猕猴海马的单细胞转录组学揭示了神经前体细胞群<br>DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.1038/s41593-022-01073-x">https://doi.org/10.1038/s41593-022-01073-x</a><br>Cite: Hao, ZZ., Wei, JR., Xiao, D. et al. Single-cell transcriptomics of adult macaque hippocampus reveals neural precursor cell populations. <em>Nat Neurosci</em> 25, 805–817 (2022).</p>
+<span id="more"></span>
+
+<h1 id="Abstract："><a href="#Abstract：" class="headerlink" title="Abstract："></a>Abstract：</h1><p>在成年灵长类动物中发生神经发生(neurogenesis)的程度仍存在争议。在这项研究中，使用优化的 single-cell RNA sequencing pipeline，我们分析了来自成年猕猴海马的 207,785 个细胞，并鉴定了包含所有主要海马细胞类型的 34 个细胞群。对它们的基因表达、规范轨迹和基因调控网络的分析显示，存在所有关键的神经源性前体细胞群，包括放射状胶质样细胞(radial glia-like cells，RGLs)、中间祖细胞(intermediate progenitor cells，IPCs)和神经母细胞(neuroblasts，NB)。我们鉴定出 HMGB2 是一种新的 IPC 标记物。与小鼠单细胞转录组数据的比较显示，不同物种之间的神经源性过程存在差异。我们证实了 neurogenesis 在成年灵长类动物的体外神经球培养中被再现，进一步支持了能够增殖和分化的神经前体细胞(neural precursor cells，NPCs)的存在。我们的大规模数据集为灵长类动物提供了一个全面的成年神经发生图谱。</p>
+<h1 id="Results："><a href="#Results：" class="headerlink" title="Results："></a>Results：</h1><h2 id="Fig1-解剖成年猕猴的海马细胞和分子特征"><a href="#Fig1-解剖成年猕猴的海马细胞和分子特征" class="headerlink" title="Fig1. 解剖成年猕猴的海马细胞和分子特征"></a>Fig1. 解剖成年猕猴的海马细胞和分子特征</h2><p><img src="Fig1.png" alt="Fig1"><br><strong>a.</strong> 工作流程示意图，从 8 只成年猕猴 (雄性 6 只，雌性 2 只) 中收集了包含 DG 区域的海马细胞，通过 10x Genomics 测得了 207,785 个细胞。<br><strong>b.</strong> 207,785 个细胞聚类的 UMAP 展示，一共聚类成了 34 个群。<br><strong>cd.</strong> 注释类群的 marker gene<br>(1) neuroglia 神经胶质：<br>Astro, Astrocytes 星形胶质细胞;（AQP4+）<br>Astro_im, immature astrocytes 未成熟星形胶质细胞;（AQP4+）<br>OPC, oligodendrocyte progenitor cells 少突胶质祖细胞; （C1QL1+）<br>NFOL, newly formed oligodendrocytes 新生少突胶质细胞; （BCAS1+）<br>MOL, mature oligodendrocytes 成熟少突胶质细胞; （MOG+）<br>(2) neurons 神经元：<br>GABA, GABAergic neurons GABA能神经元; （GAD2+）<br>Pyr, pyramidal neurons 锥体神经元; （RGS4+）<br>GC_im, immature granule cells 未成熟颗粒细胞; （PROX1+）<br>GC, granule cells 颗粒细胞; （PROX1+）<br>(3) vascular cells 血管细胞：<br>Endothelial，内皮细胞；（FLT1+）<br>VLMC, vascular leptomeningeal cells 软脑膜血管细胞; （DCN+）<br>(4) immune cells 免疫细胞：<br>Microglia，小胶质细胞；（ C1QA+）<br>PVM, perivascular macrophages 血管周围巨噬细胞; （LYVE1+）<br>(5) CR, Cajal–Retzius cells; （RELN+）<br>(6) Ependymal，室管膜细胞；（CFAP126+）<br>(7) NPCs，neural precursor cells 神经前体细胞：<br>RGL_1 and RGL_2, radial glia-like cells 放射状胶质样细胞; （SLC1A3+）<br>IPC，intermediate progenitor cells 中间祖细胞; IPC_1（HMGB2+ASCL1+）<br>IPC_2（HMGB2+ASCL1−  ）<br>NB, neuroblasts 神经母细胞; （SOX4+）<br>(8) Unk, Unknown；<br>除了已知的 marker genes，新发现了一些 marker genes：<br>IPCs：RFC4<br>neuroblasts：NNAT<br>GCs：NPY1R<br><strong>e.</strong> 每个细胞群标记基因的功能注释。RGLs 与 local environment 广泛地相互作用，从而在适当的水平上限制它们的增殖。cell-cell signaling pathways 在 RGLs 中上调，包括 Wnt signaling pathway，这是 RGLs 的主要调控通路之一。<br><strong>f.</strong> 放射状胶质样细胞(radial glia-like cells，RGLs)被认为是在成年海马中发现的神经干细胞(neural stem cells，NSCs)。RGLs 与星形胶质细胞(astrocytes)密切相关，同时表达典型的星形胶质细胞标记基因(GFAP)和神经前体(neural precursor)标记基因 SOX2 和 SLC1A3。免疫荧光染色证实了在猕猴海马 DG 的 SGZ 中存在 RGLs。</p>
+<h2 id="Fig2-使用注释数据集验证猕猴海马细胞群"><a href="#Fig2-使用注释数据集验证猕猴海马细胞群" class="headerlink" title="Fig2. 使用注释数据集验证猕猴海马细胞群"></a>Fig2. 使用注释数据集验证猕猴海马细胞群</h2><p><img src="Fig2.png" alt="Fig2"><br><strong>a.</strong> 使用 scVI 对猕猴(n=15,878 cells)和小鼠(n=9,810 cells，Hochgerer_1 dataset)数据集之间整合的 UMAP 可视化，然后使用 Harmony 算法。<br><strong>b.</strong> 猕猴和小鼠之间的细胞类型同源性分析。大多数猕猴的海马细胞类型能与小鼠的对应细胞对齐，这表明海马细胞在灵长类动物和啮齿类动物之间是保守的。<br><strong>cd.</strong> 按照 a 中的 UMAP 坐标对猕猴和小鼠的细胞进行注释。<br><strong>e.</strong> 猕猴 neural genesis cells and neurons (n=800 cells) 和小鼠 NPCs(n=132 cells) 之间的整合。<br><strong>f.</strong> 猕猴(n=15,878 cells)和人类胚胎细胞(n=6,323 cells)之间的整合。</p>
+<h2 id="Fig3-RGLs-和-astrocytes-是不同的群体"><a href="#Fig3-RGLs-和-astrocytes-是不同的群体" class="headerlink" title="Fig3. RGLs 和 astrocytes 是不同的群体"></a>Fig3. RGLs 和 astrocytes 是不同的群体</h2><p><img src="Fig3.png" alt="Fig3"><br>由于 astrocytes 与 RGLs 的标记基因表达相似性较高，数据整合无法区分 RGLs 与 astrocytes。为了区分 RGLs 和 immature astrocytes，我们使用 scVelo 算法计算了 RGLs 和 astrocytes 的 RNA velocity，以推断这些群体之间的分化轨迹(trajectories)。scVelo 可以推断每个细胞在 neurogenesis  中的表达梯度，并通过比较 newly transcribed, unspliced pre-mRNAs with mature, spliced mRNAs 的丰度，提供一个在神经发生过程中解开亚群的工作假设。利用该算法，我们推断了从 RGLs  到 astrocytes 的 astrocyte genesis trajectory。<br><strong>a.</strong> 突出显示 RGL 和 astrocyte maturation-related 群体的 UMAP 分布 (RGL_1, n= 1,107 cells; RGL_2, n= 1,246; Astro_im1, n= 1,661; Astro_im2, n= 698; Astro_1, n= 12,322)，而 RNA velocities (RNA速度) 则显示为箭头。<br><strong>b.</strong> scVelo 拟时序分析 UMAP 可视化，从早期（蓝色）到晚期（红色）。astrocyte genesis trajectory 从 RGL_1 开始，通过 RGL_2 和 immature astrocytes，并最终到达 mature astrocytes，支持了我们对 RGLs 的鉴定。<br><strong>c.</strong> 热图显示了拟时序相关基因的表达，上边的 colorbar 为 a 中的星形胶质细胞类群，右边标记了部分基因。<br><strong>d.</strong> 区分 immature astrocytes 和 astrocytes 的拟时序相关基因的 UMAP 分布。<br><strong>e.</strong> DG 中 RGL markers (SOX2 和 GFAP) 的免疫染色显示，长长的顶端突起(apical processes)从 SGZ 分支到 ML(白色方框)。<br><strong>f.</strong> GFAP 免疫染色显示 hilus 内有 astrocytes（黄色箭头），其形态与 RGLs 不同。<br><strong>g.</strong> RGL_1 和 RGL_2 之间的 5575 个 DEGs，以及 GO 和 KEGG 富集分析。RGL_1 中上调的基因富含蛋白质合成和细胞-基质相互作用。而 RGL_2 群体中一些细胞信号通路和增殖相关基因表达上调。这些基因包括调控 Wnt pathway 的 WIF1(Wnt inhibitory factor 1)；RGCC（regulator of cell cycle），调节细胞周期和增殖，并参与平衡 NSCs (neural stem cell) 的自我更新和分化。TPT1 编码肿瘤蛋白，翻译控制1蛋白进行细胞增殖。</p>
+<h2 id="Fig4-成年猕猴海马-DG-的动态神经发生过程"><a href="#Fig4-成年猕猴海马-DG-的动态神经发生过程" class="headerlink" title="Fig4. 成年猕猴海马 DG 的动态神经发生过程"></a>Fig4. 成年猕猴海马 DG 的动态神经发生过程</h2><p><img src="Fig4.png" alt="Fig4"><br><strong>a.</strong> 突出显示 neurogenic-related 和  immature GCs 群体的 UMAP 分布以及 mKNN graph plot。<br>IPCs (n= 163 cells, 黑圈) 链接到 neuroblasts (n= 1,904 cells) and GC_im cells (n= 7,547 cells), 而锥体神经元被分开 (Pyr_1 and Pyr_2, n= 1,384 and 123 cells)。mKNN 分析揭示了从 IPC_1 经过 neuroblasts 到 immature GCs 的轨迹，而 neuroblasts 和 pyramidal neurons 之间几乎没有任何连系。<br><strong>b.</strong> 如 a 中 mKNN graphs 对 proliferating cells(MKI67)、 NPCs(SOX2)、IPCs(ASCL1)、 neuroblasts(EOMES and NEUROD2) 和  immature GCs (PROX1) 中高表达的基因进行染色。这与从细胞增殖到神经元分化的神经发生过程相一致。<br><strong>c.</strong> 热图显示了在每个细胞群中高表达的标记基因的表达。x轴代表基因，而y轴代表细胞。<br><strong>d.</strong> 脑切片中神经前体标记物 SOX2(precursor cell marker) 和 MKI67(proliferating cell marker) 的共免疫染色，捕获了核分裂前（左图）、中（中间图）和后（右图）期的细胞分裂过程，进一步验证了成年灵长类动物中增殖的 NSCs (neural stem cell) 的存在。</p>
+<h2 id="Fig5-HMGB2-与-RGL-和-IPCs-之间的过渡相关"><a href="#Fig5-HMGB2-与-RGL-和-IPCs-之间的过渡相关" class="headerlink" title="Fig5. HMGB2 与 RGL 和 IPCs 之间的过渡相关"></a>Fig5. HMGB2 与 RGL 和 IPCs 之间的过渡相关</h2><p><img src="Fig5.png" alt="Fig5"><br><strong>a.</strong> IPCs 的 UMAP 可视化和增殖标记物 MKI67 和表观遗传调控基因 EZH2 的表达水平。IPCs 用黑色的圆圈表示。IPC_2 是另一个正在增殖的群体，这些细胞的一个子集表达 EZH2，编码神经命运表观遗传调节因子，推断它们的命运正在从干细胞维持转移到分化。<br><strong>b.</strong> RGLs 和 IPCs 的 GFAP 和 HMGB2 基因表达分布的小提琴图谱。IPCs 可以通过 HMGB2 进行识别，它编码一个染色质相关的转录激活因子，对 NSCs 从静止到增殖状态的过渡至关重要。<br><strong>c.</strong> IPC 标记物 HMGB2 和典型的 RGL 标记物 GFAP 的免疫染色捕获的细胞群与 RGLs 和 IPCs 之间可能的过渡相一致。Box1 and white arrowheads: 一个典型的RGL，GFAP表达较强，但HMGB2不表达。Box2 and yellow arrowheads: 一个中间细胞，GFAP表达较弱，HMGB2表达较弱的。Box3 and magenta arrowheads: 一个HMGB2+细胞，HMGB2表达强，GFAP表达很弱。<br><strong>d.</strong> 方框中显示的三种细胞类型的示意图及其对应的 RGLs (Box 1 and the green cell, GFAP+HMGB2−)，RGLs 和 IPCs 的中间状态 (Box 2 and the light green cell, GFAP+ HMBG2+)，IPCs (Box 3 and the red cell, GFAP− HMGB2+)。<br><strong>e.</strong> HMGB2 和 GFAP 的免疫染色显示了一个 GFAP− HMGB2+ IPC 细胞（洋红色箭头）和一个 GFAP+ HMGB2+ 处于过渡阶段的典型 RGL 形态的细胞（黄色箭头）。与 IPC 细胞相比，过渡期细胞中 HMGB2 的表达水平较低，而 GFAP 的表达水平较高。右边的细胞示意图显示了细胞类型及其基因表达模式。<br><strong>f.</strong> HMGB2 和 GFAP 的免疫染色显示了一个包含四个前体细胞的增殖簇：GFAP<sup>High</sup>HMGB2<sup>Low</sup>RGL（白色箭头），GFAP<sup>Low</sup>HMGB2<sup>High</sup>IPC（洋红色箭头）和两个处于过渡阶段，GFAP 和 HMGB2 表达均处于中等水平的细胞（黄色箭头）。右边的细胞示意图显示了细胞类型及其基因表达模式。</p>
+<h2 id="Fig6-成年猕猴海马-DG-中-GCs-的成熟过程"><a href="#Fig6-成年猕猴海马-DG-中-GCs-的成熟过程" class="headerlink" title="Fig6. 成年猕猴海马 DG 中 GCs 的成熟过程"></a>Fig6. 成年猕猴海马 DG 中 GCs 的成熟过程</h2><p><img src="Fig6.png" alt="Fig6"><br><strong>a.</strong> GC genesis-related 群体 (neuroblast, n= 1,898 cells; GC_im, n = 7,547 cells; and GC_1, n= 23,491 cells，在UMAP可视化中突出显示) 用 UMAP 重新分析，而 RNA velocities(RNA速度) 以箭头表示。RNA velocity 显示从神经母细胞(neuroblasts，NB)到 immature GCs，最终再到 mature GCs 的 GC specification trajectory。<br><strong>b.</strong> 由 RNA velocities 得到的 GC 成熟过程中暂定驱动基因的热图。<br><strong>c.</strong> 为了分析成熟和未成熟 GC 之间的差异，我们对 immature GC(GC_im，n=7,547) 和 mature GC(GC_1，n=23,491)进行了 DEG 分析。右边显示了功能富集结果，成熟GCs的上调基因参与了神经元的功能，如化学突触传递(chemical synaptic transmission), 神经元投射形态发生(neuron projection morphogenesis) 和 SNARE binding pathways。这与成熟的GCs的功能是相一致的。<br><strong>d.</strong> 免疫染色证实在 SGZ 中存在 immature GCs。DCX, immature neuron marker; PROX1, GC marker; DAPI, nuclei。<br><strong>e.</strong> 新的标记基因表达的 UMAP 可视化。这些标记基因分别为 neuroblasts (ASAP2 and TMEM159), immature GCs (COTL1)，mature GCs (NOV)。</p>
+<h2 id="Fig7-成年猕猴海马-DG-中-GCs-的成熟过程"><a href="#Fig7-成年猕猴海马-DG-中-GCs-的成熟过程" class="headerlink" title="Fig7. 成年猕猴海马 DG 中 GCs 的成熟过程"></a>Fig7. 成年猕猴海马 DG 中 GCs 的成熟过程</h2><p><img src="Fig7.png" alt="Fig7"><br>为了确认神经球的 NSC 特性，我们通过 scRNA-seq 对 6988 个神经球细胞进行了转录组分析。<br><strong>a–j.</strong> 两个培养的成年猕猴海马神经球克隆的体外记录过程。<br><strong>k.</strong> 培养的球细胞(n=6988 cells)的选定 marker genes UMAP 可视化。NES(RGL marker); HMGB2(IPC marker); MKI67(proliferating cell marker); PAX6(neural progenitor marker)。<br><strong>i.</strong> 培养的猕猴海马神经球细胞对 NSC marker NESTIN 具有免疫反应性。<br><strong>m.</strong> 大多数细胞被 NESTIN 和 EdU 荧光标记。<br><strong>n.</strong> proliferating neural progenitor marker HMGB2<br><strong>o.</strong> proliferating cell marker MKI67<br><strong>p.</strong> neural progenitor marker PAX6<br><strong>q.</strong> neuronal marker MAP2<br><strong>r.</strong> astrocyte marker GFAP<br><strong>s.</strong> oligodendrocyte marker CNPase<br><strong>t.</strong> 左：UMAP可视化显示了从分离的成年猕猴海马细胞中增殖培养球形细胞的遗传异质性。这些颜色代表了猕猴基于回归的SCCAF投影结果，使用了与图1d相同的配色方案。右图：用SCCAF投影染色的UMAP可视化结果为选择性群体。红点表示预测的细胞类型的分布。</p>
+<h1 id="Extended-Results："><a href="#Extended-Results：" class="headerlink" title="Extended Results："></a>Extended Results：</h1><h2 id="Extended-Data-Fig1-数据质控"><a href="#Extended-Data-Fig1-数据质控" class="headerlink" title="Extended Data Fig1. 数据质控"></a>Extended Data Fig1. 数据质控</h2><p><img src="ExtendedFig1.png" alt="Extended Data Fig1"><br><strong>ab.</strong> counts 数和 gene 数，显示了均值和中位数<br><strong>c.</strong> 不同 10x version 和 animal ID 的 UMAP展示<br><strong>d.</strong> 不同 sample 的 UMI counts<br><strong>e.</strong> 不同 sample 的 genes<br><strong>f.</strong> 不同动物的细胞数目<br><strong>g.</strong> 不每个样本的类型组成</p>
+<h2 id="Extended-Data-Fig2-海马细胞群中富集的基因调控网络-gene-regulatory-networks，GRNs，termed-regulons"><a href="#Extended-Data-Fig2-海马细胞群中富集的基因调控网络-gene-regulatory-networks，GRNs，termed-regulons" class="headerlink" title="Extended Data Fig2. 海马细胞群中富集的基因调控网络(gene regulatory networks，GRNs，termed regulons)"></a>Extended Data Fig2. 海马细胞群中富集的基因调控网络(gene regulatory networks，GRNs，termed regulons)</h2><p><img src="ExtendedFig2.png" alt="Extended Data Fig2"><br><strong>a.</strong> neurogenic-related 群体的 regulon score tSNE plot<br><strong>b.</strong> 基因调控网络富集评分<br><strong>c-f.</strong> 通过 SCENIC 软件进行转录因子调控网络预测</p>
+<h2 id="Extended-Data-Fig3-与年龄相关的群体分布和基因表达的变化"><a href="#Extended-Data-Fig3-与年龄相关的群体分布和基因表达的变化" class="headerlink" title="Extended Data Fig3. 与年龄相关的群体分布和基因表达的变化"></a>Extended Data Fig3. 与年龄相关的群体分布和基因表达的变化</h2><p><img src="ExtendedFig3.png" alt="Extended Data Fig3"><br><strong>a.</strong> 按年龄分组的样本分布<br><strong>b.</strong> Y4–6(Young) 和 Y13–15(Middle-aged) neuroblasts(NB，神经母细胞)之间的 DEGs<br><strong>c.</strong> Young 与 Middle-aged 相比，neurogenic-related 细胞类群所有基因的 Log2 FC 的 stripchart<br><strong>d.</strong> Young adult 与 Middle-aged adult 的 neurogenic-related 细胞类群的 Pair-wise comparison，横纵轴为基因的表达量，中间实线表示表达量相等，两边虚线表示有两倍差异，蓝红点表示 Log2FC&gt;0.5 的基因。<br><strong>e.</strong> 上边蓝色热图是 Young adult 中高表达的基因，下边红色热图是 Middle-aged adult 中高表达的基因。<br>发现在 Young adult 与 Middle-aged adult 中都存在所有的细胞类群，并且对于大多数细胞类群两者之间没有显著差异。这与在成年小鼠中发现的低但可持续水平的 neurogenesis 相一致，表明在成年猕猴中广泛存在着跨年龄和性别群体的神经发生。</p>
+<h2 id="Extended-Data-Fig4-与性别相关的群体分布和基因表达的变化"><a href="#Extended-Data-Fig4-与性别相关的群体分布和基因表达的变化" class="headerlink" title="Extended Data Fig4. 与性别相关的群体分布和基因表达的变化"></a>Extended Data Fig4. 与性别相关的群体分布和基因表达的变化</h2><p><img src="ExtendedFig4.png" alt="Extended Data Fig4"><br><strong>a.</strong> 按性别分组的样本分布<br><strong>b.</strong> Y4–6(Young) 和 Y13–15(Middle-aged) neuroblasts(NB，神经母细胞)之间的 DEGs<br><strong>c.</strong> females and males 相比，neurogenic-related 细胞类群所有基因的 Log2 FC 的 stripchart<br><strong>d.</strong> females and males 的 neurogenic-related 细胞类群的 Pair-wise comparison，横纵轴为基因的表达量，中间实线表示表达量相等，两边虚线表示有两倍差异，蓝红点表示 Log2FC&gt;0.5 的基因。<br><strong>e.</strong> 上边蓝色热图是 females 中高表达的基因，下边红色热图是 males 中高表达的基因。<br>雄性(n=6)和雌性(n=2)猕猴之间的细胞组成和基因表达差异也很细微。两组间的细胞分布和基因表达均无显著差异，说明雄性和雌性猕猴的神经源性过程(neurogenic process)高度相似。</p>
+<h2 id="Extended-Data-Fig5-典型神经标记物的免疫染色证实了SGZ中神经前体细胞的存在"><a href="#Extended-Data-Fig5-典型神经标记物的免疫染色证实了SGZ中神经前体细胞的存在" class="headerlink" title="Extended Data Fig5. 典型神经标记物的免疫染色证实了SGZ中神经前体细胞的存在"></a>Extended Data Fig5. 典型神经标记物的免疫染色证实了SGZ中神经前体细胞的存在</h2><p><img src="ExtendedFig5.png" alt="Extended Data Fig5"><br><strong>a.</strong> 对典型的神经祖细胞标记物 NESTIN 的免疫染色显示，神经前体细胞(neural precursor cells，NPCs)在 SGZ 层，通过顶端突起到达 ML 层。<br><strong>b.</strong> 增殖标记物(proliferating marker) MKI67 的免疫染色进一步验证了来自 SGZ 层的 proliferating NPCs  的存在。<br><strong>c.</strong> 同样，将典型的神经祖细胞标记物 HOPX 与 SOX2 和 GFAP 共染色，发现 SGZ 中具有典型的 RGL 形态的 RGLs。<br><strong>d.</strong> ASCL1+ SOX2+ GFAP+ 同时标记 RGLs 和增殖的神经祖细胞(proliferating neural progenitors)。</p>
+<h2 id="Extended-Data-Fig6-猕猴成年海马转录组细胞类型与成熟的小鼠数据集对齐"><a href="#Extended-Data-Fig6-猕猴成年海马转录组细胞类型与成熟的小鼠数据集对齐" class="headerlink" title="Extended Data Fig6. 猕猴成年海马转录组细胞类型与成熟的小鼠数据集对齐"></a>Extended Data Fig6. 猕猴成年海马转录组细胞类型与成熟的小鼠数据集对齐</h2><p><img src="ExtendedFig6.png" alt="Extended Data Fig6"></p>
+<h2 id="Extended-Data-Fig7-猕猴成年海马转录组细胞类型与成熟的人类数据集对齐"><a href="#Extended-Data-Fig7-猕猴成年海马转录组细胞类型与成熟的人类数据集对齐" class="headerlink" title="Extended Data Fig7. 猕猴成年海马转录组细胞类型与成熟的人类数据集对齐"></a>Extended Data Fig7. 猕猴成年海马转录组细胞类型与成熟的人类数据集对齐</h2><p><img src="ExtendedFig7.png" alt="Extended Data Fig7"></p>
+<h2 id="Extended-Data-Fig8-神经源性相关群体的谱系"><a href="#Extended-Data-Fig8-神经源性相关群体的谱系" class="headerlink" title="Extended Data Fig8. 神经源性相关群体的谱系"></a>Extended Data Fig8. 神经源性相关群体的谱系</h2><p><img src="ExtendedFig8.png" alt="Extended Data Fig8"><br><strong>a.</strong> neurogenic-related population 的 PCA 可视化。<br><strong>b.</strong> 典型的 neurogenic marker genes 的 PCA 可视化。<br><strong>c.</strong> 通过 scVelo 分析，带 RNA velocities 箭头的 PCA 可视化。<br><strong>d.</strong> 拟时序相关基因的表达。<br><strong>e.</strong> 通过 Slingshot 分析，推断出的神经源性谱系。<br><strong>f.</strong> 从 Slingshot 中得到的拟时序分析表明了从 RGL→IPC→NB→GC 的轨迹。</p>
+<h2 id="Extended-Data-Fig9-在猕猴和小鼠之间的基因富集情况的比较"><a href="#Extended-Data-Fig9-在猕猴和小鼠之间的基因富集情况的比较" class="headerlink" title="Extended Data Fig9. 在猕猴和小鼠之间的基因富集情况的比较"></a>Extended Data Fig9. 在猕猴和小鼠之间的基因富集情况的比较</h2><p><img src="ExtendedFig9.png" alt="Extended Data Fig9"><br><strong>a.</strong> 在小鼠和猕猴之间保守的 Neurogenic markers。<br><strong>b.</strong> 只在猕猴或小鼠中富集的物种特异性 marker genes。<br><strong>c.</strong> 比较猕猴和小鼠的 RGLs、IPCs、neuroblasts(NB)、GCs、Astrocytes、Oligodendrocytes 的差异基因分析。<br><strong>d.</strong> 猕猴(n=39555)和小鼠(n=3711)的神经源性相关细胞组成。<br>这些基因表达谱的差异表明了啮齿类动物和灵长类动物之间的神经源性过程的差异。</p>
+<h2 id="Extended-Data-Fig10-培养的海马神经球的神经球形成过程及基因表达"><a href="#Extended-Data-Fig10-培养的海马神经球的神经球形成过程及基因表达" class="headerlink" title="Extended Data Fig10. 培养的海马神经球的神经球形成过程及基因表达"></a>Extended Data Fig10. 培养的海马神经球的神经球形成过程及基因表达</h2><p><img src="ExtendedFig10.png" alt="Extended Data Fig10"><br><strong>a-d.</strong> 一个培养的成年猕猴海马神经球克隆的体外记录过程。<br><strong>e.</strong> 培养的球形细胞(n=6,988 cells)的选择性标记基因的 UMAP 可视化。VIM(RGL and astrocyte marker); NNAT(novel neuroblast marker); SOX4(neuroblast marker); TUJ1(neuronal marker)<br><strong>f-i.</strong> 不同培养时期各 marker gene 的免疫荧光染色<br><strong>j.</strong> 从 Hochgerner_1 数据集中投射的转录组细胞类型的 UMAP 可视化。红点表示预测的细胞类型的分布。IPC, intermediate progenitor cell; NB, neuroblast; GC, granule cell; Astro, astrocyte。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div>
+    
+        <div style="text-align:center;color: #ccc;font-size:24px; padding-top: 10px;"> 
+        ----------------------------------- The End ----------------------------------- </div>
+    
+</div>
+
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="TigerZ 微信">
+        <span>微信</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>TigerZ
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://zhenghu159.github.io/2022/06/10/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Single-cell%20transcriptomics%20of%20adult%20macaque%20%20hippocampus%20reveals%20neural%20precursor%20cell%20%20populations/" title="文献阅读 --- Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations">https://zhenghu159.github.io/2022/06/10/文献阅读/神经生物学/Single-cell transcriptomics of adult macaque  hippocampus reveals neural precursor cell  populations/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+    本博客仅用于个人学习记录，不涉及任何商业目的，如有侵权，请联系作者！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" rel="tag"> <i class="fa-solid fa-tag"></i> 文献阅读</a>
+              <a href="/tags/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/" rel="tag"> <i class="fa-solid fa-tag"></i> 神经生物学</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/05/30/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%89%A9%E5%AD%A6/Decoding%20the%20development%20of%20the%20human%20hippocampus/" rel="prev" title="文献阅读 --- Decoding the development of the human hippocampus">
+                  <i class="fa fa-chevron-left"></i> 文献阅读 --- Decoding the development of the human hippocampus
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments utterances-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">TigerZ</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">46k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">42 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"zhenghu159/BlogComments","issue_term":"pathname","theme":"github-light"}</script>
+<script src="/js/third-party/comments/utterances.js"></script>
+<div class="moon-menu">
+  <div class="moon-menu-items">
+    
+    <div id="moon-menu-item-back2bottom" class="moon-menu-item">
+      <i class='fas fa-chevron-down'></i>    </div>
+    
+    <div id="moon-menu-item-back2top" class="moon-menu-item">
+      <i class='fas fa-chevron-up'></i>    </div>
+    
+  </div>
+  <div class="moon-menu-button">
+    <svg class="moon-menu-bg">
+      <circle class="moon-menu-cricle" cx="50%" cy="50%" r="44%"></circle>
+      <circle class="moon-menu-border" cx="50%" cy="50%" r="48%"></circle>
+    </svg>
+    <div class="moon-menu-content">
+      <div class="moon-menu-icon"><i class='fas fa-ellipsis-v'></i></div>
+      <div class="moon-menu-text"></div>
+    </div>
+  </div>
+</div><script src="/js/injector.js"></script>
+</body>
+</html>
